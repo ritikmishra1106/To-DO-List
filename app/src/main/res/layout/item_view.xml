@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llMain"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="@drawable/rectengle_green_bg"
+        android:padding="20dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:id="@+id/txtNameOutput"
+            android:textColor="#F68282"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/txtMsgOutput"
+            />
+    </LinearLayout>
+</RelativeLayout>
